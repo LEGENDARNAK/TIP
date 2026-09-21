@@ -1,0 +1,41 @@
+1
+
+#include <iostream>
+using namespace std;
+int main() {
+    int a, b;
+    cin >> a >> b;
+    a = a + b;
+    b = a - b;
+    a = a - b;
+    cout << a << " " << b;
+    return 0;
+}
+
+2
+
+#include <iostream>
+using namespace std;
+int main() {
+    double number, res_n = 1, resultat = 1;
+    cout << "введите любое число:";
+    cin >> number;
+    for (int i = 1; i <= number; i++) {
+        res_n = res_n * i;
+        resultat = resultat * res_n;
+    }
+    cout << resultat;
+    return 0;
+}
+
+3
+
+#include <iostream>
+using namespace std;
+int main() {
+    int A, B = 2;
+    cin >> A;
+    B = B - A;
+    cout << B;
+    return 0;
+}
