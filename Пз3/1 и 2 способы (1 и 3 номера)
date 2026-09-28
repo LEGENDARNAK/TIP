@@ -1,0 +1,36 @@
+первый способ
+
+#include <iostream>
+using namespace std;
+int main() {
+    int a, b, number;
+    cout << "введите 2 катета:";
+    cin >> a >> b;
+    cout << "гипотенуза треугольника:" << sqrt(a * a + b * b) << endl;
+    cout << "введите число";
+    cin >> number;
+    cout << "его десяток" << number / 10 % 10;
+    return 0;
+}
+
+второй способ
+
+#include <iostream>
+double gipotinuza(double a, double b) {
+    return sqrt(a * a + b * b);
+}
+int desitok(int n) {
+    return n / 10 % 10;
+}
+using namespace std;
+int main() {
+    int a, b, number;
+    cout << "введите 2 катета:";
+    cin >> a >> b;
+    cout << "гипотенуза треугольника:" << gipotinuza(a, b) << endl;
+    cout << "введите число";
+    cin >> number;
+    cout << "его десяток" << desitok(number);
+    return 0;
+}
+
