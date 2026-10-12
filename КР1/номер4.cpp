@@ -3,7 +3,7 @@
 using namespace std;
 int main() {
     char i;
-    cout << "Введите 1 из вариантов (1, 2, 3):" << endl;
+    cout << "Введите 1 из вариантов (L, i, a):" << endl;
     cin >> i;
     if (i == 'L') {
         cout << "Levin Vlad";
@@ -32,7 +32,7 @@ int main() {
         int number;
         cout << "Введите число:" << endl;
         cin >> number;
-        if (number % 11 == 0) {
+        if (number % 4 == 0) {
             cout << number << " - делится на 11" << endl;
         }
         else {
