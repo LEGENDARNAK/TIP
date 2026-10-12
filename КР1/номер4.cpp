@@ -2,13 +2,13 @@
 #include <math.h>
 using namespace std;
 int main() {
-    int i;
+    str i;
     cout << "Введите 1 из вариантов (1, 2, 3):" << endl;
     cin >> i;
-    if (i == 1) {
+    if (i == "L") {
         cout << "Levin Vlad";
     }
-    else if (i == 2) {
+    else if (i == "i") {
         double a, b, c, diskr;
         cout << "Введите 3 множителя:" << endl;
         cin >> a >> b >> c;
@@ -28,7 +28,7 @@ int main() {
             }
         }
     }
-    else if (i == 3) {
+    else if (i == "a") {
         int number;
         cout << "Введите число:" << endl;
         cin >> number;
